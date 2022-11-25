@@ -1,0 +1,21 @@
+table {
+    margin: auto;
+}
+table caption{
+    font-size: 2em;
+    padding: 10px;
+}
+th {
+    background-color: #aeaeae;
+}
+tr, th {
+    padding: 5px;
+    font-size: 1em;
+    border: 1px solid grey;
+}
+tr:nth-child(even){
+    background-color: #fefefe;
+}
+tr:nth-child(odd){
+    background-color: #efefef;
+}
